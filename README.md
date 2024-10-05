@@ -50,6 +50,7 @@ java -jar target/note-taking-app.jar
 ## Error Handling
 - **404 Not Found**: If a note with the specified ID is not found.
 - **400 Bad Request**: For invalid input or missing required fields.
+- **500 Internal Server Error**: For any unhandled exceptions.
 
 ## Assumptions
 - Data is stored in memory and is not persisted across application restarts.
